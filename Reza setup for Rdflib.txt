@@ -1,0 +1,27 @@
+1. shift control p in vscode
+2. tasks configure task runner
+3. update tasks.json:
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "C:\\Users\\...\\Local\\Programs\\Python\\Python36-32\\python.exe",
+    "isShellCommand": true,
+    "args": ["${file}"],
+    "showOutput": "always"
+}
+
+now python is ready in vscode
+
+download https://github.com/RDFLib/rdflib
+
+help: https://www.youtube.com/watch?v=ddpYVA-7wq4
+
+install rdflib by command prompt:
+cd C:\Users\...\rdflib-master\rdflib-master
+python setup.py install
+
+now run code
+
+To run the code in vscode: ctrl+shift+b
