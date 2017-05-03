@@ -25,3 +25,4 @@ python setup.py install
 now run code
 
 To run the code in vscode: ctrl+shift+b
+if You still get: "Mark a task with 'isBuildCommand' in the tasks.json file." error reopen vscode 
