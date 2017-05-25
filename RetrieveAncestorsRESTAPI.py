@@ -46,7 +46,7 @@ cptSNOMED=[]
 cptLOINC=[]
 
 
-wb = openpyxl.load_workbook('C:\\Users\\rkal762\\Google Drive\\Reza\\1.Literature\\PhysioMedApp development\\Ontologies\\cptTerms.xlsx')
+wb = openpyxl.load_workbook('\\cptTerms.xlsx')
 sheet = wb.active
 for i in range(sheet.max_row):
     if sheet['A%s'%(i+1)].value == 'fma':
